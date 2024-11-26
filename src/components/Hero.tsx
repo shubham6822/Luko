@@ -108,6 +108,7 @@ const Hero = () => {
                                 ref={nextVdRef}
                                 src={getVideoSrc((currentIndex % totalVideos) + 1)}
                                 loop
+                                autoPlay
                                 muted
                                 id="current-video"
                                 className="size-64 origin-center scale-150 object-cover object-center"
@@ -153,7 +154,7 @@ const Hero = () => {
 
                         <Button
                             id="watch-trailer"
-                            title="PLAY"
+                            title="EXPLORE"
                             leftIcon={<IoGameController />}
                             containerClass="bg-yellow-300 flex-center gap-1"
                         />
