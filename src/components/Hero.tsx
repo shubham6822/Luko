@@ -153,7 +153,7 @@ const Hero = () => {
 
                         <Button
                             id="watch-trailer"
-                            title="EXPLORE"
+                            title="Games"
                             leftIcon={<IoGameController />}
                             containerClass="bg-yellow-300 flex-center gap-1"
                         />
