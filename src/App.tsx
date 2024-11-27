@@ -2,6 +2,7 @@ import Hero from './components/Hero'
 import About from './components/About'
 import Navbar from './components/Navbar'
 import Feature from './components/Feature'
+import Story from './components/Story'
 
 export default function App() {
   return (
@@ -10,6 +11,7 @@ export default function App() {
       <Hero />
       <About />
       <Feature />
+      <Story />
     </div>
   )
 }
